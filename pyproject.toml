@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "wizconsole"
+version = "0.1.0"
+description = "A Python tool to control Wiz smart lights"
+authors = ["Lorenzo Farinelli <lorenzo.farinelli@outlook.it>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pywizlight = "^0.5.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
