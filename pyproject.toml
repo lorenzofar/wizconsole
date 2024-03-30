@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 pywizlight = "^0.5.14"
+pyyaml = "^6.0.1"
 
 
 [build-system]
